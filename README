@@ -1,0 +1,9 @@
+This is a wordpress plugin that adds the ability to manually specify related posts.
+
+It adds a meta box to the Edit Post screen where the related posts can be chosen.
+
+In the template, use something like this to list the related posts:
+<?php foreach(get_manual_related_posts() as $p) {
+	echo('<li><a href="'.get_permalink($p).'">'.get_the_title($p).'</a></li>'); 
+  }
+?>
