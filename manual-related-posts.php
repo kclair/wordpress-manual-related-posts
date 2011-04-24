@@ -1,9 +1,10 @@
 <?php
 /*
 Plugin Name: Manual Related Posts 
-Plugin URI: 
+Plugin URI: https://kclair@github.com/kclair/wordpress-manual-related-posts.git 
 Description: Define related posts, rather than have wordpress guess them.
 Author: Kristina Clair
+Version: 0.9
 */
 
 $rp = new RelatedPosts;
