@@ -35,7 +35,7 @@ class RelatedPosts {
   }
 
   function postmeta_key($i=null) {
-    $base = 'related_post_';
+    $base = '_mrp_related_post_';
     return(($i) ? $base.$i : $base);
   }
 
