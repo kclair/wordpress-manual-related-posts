@@ -7,3 +7,23 @@ In the template, use something like this to list the related posts:
 	echo('<li><a href="'.get_permalink($p).'">'.get_the_title($p).'</a></li>'); 
   }
 ?>
+
+To Install:
+
+1) Download: https://github.com/kclair/wordpress-manual-related-posts/blob/master/manual-related-posts.zip
+
+2) Unzip into the plugins directory
+
+3) Upload plugin directory (if applicable)
+
+4) Activate Plugins
+
+5) Add related posts on the edit post screen; add to templates per above
+
+To Uninstall:
+
+1) Remove any references to the plugin function from templates
+
+2) Deactivate plugin
+
+3) Remove plugin files
